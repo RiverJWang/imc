@@ -1,0 +1,11 @@
+sdir C:\Users\科研\Desktop\imc2018-5-11
+ch2_r3500=Cut(通道_002,60,65)
+ascsave ch2_r3500
+
+sdir C:\Users\科研\Desktop\imc2018-5-11
+ch3_r3500=Cut(通道_003,60,65)
+ascsave ch3_r3500
+
+sdir C:\Users\科研\Desktop\imc2018-5-11
+ch1_r3500=Cut(通道_004,60,65)
+ascsave ch1_r3500
