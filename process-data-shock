@@ -41,3 +41,25 @@ ascsave a冲击2_250km_20s
 tempvar=Cut(通道_002,1400,1420)
 a冲击2_300km_20s=(tempvar-mean(tempvar))/(0.002)
 ascsave a冲击2_300km_20s
+
+sdir D:\aData\戚墅堰故障齿轮箱\2018-5-28已整理数据\2.戚墅堰垂纵重滚加中度外环冲击_20180529
+
+tempvar=Cut(通道_003,200,220)
+a冲击3_100km_20s=(tempvar-mean(tempvar))/(0.002)
+ascsave a冲击3_100km_20s
+
+tempvar=Cut(通道_003,500,520)
+a冲击3_150km_20s=(tempvar-mean(tempvar))/(0.002)
+ascsave a冲击3_150km_20s
+
+tempvar=Cut(通道_003,800,820)
+a冲击3_200km_20s=(tempvar-mean(tempvar))/(0.002)
+ascsave a冲击3_200km_20s
+
+tempvar=Cut(通道_003,1100,1120)
+a冲击3_250km_20s=(tempvar-mean(tempvar))/(0.002)
+ascsave a冲击3_250km_20s
+
+tempvar=Cut(通道_003,1400,1420)
+a冲击3_300km_20s=(tempvar-mean(tempvar))/(0.002)
+ascsave a冲击3_300km_20s
