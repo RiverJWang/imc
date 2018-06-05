@@ -1,0 +1,21 @@
+sdir D:\aData\戚墅堰故障齿轮箱\2018-5-28已整理数据\2.戚墅堰垂纵重滚加中度外环冲击_20180529
+
+tempvar=Cut(通道_001,200,220)
+a冲击1_100km_20s=(tempvar-mean(tempvar))/(0.002)
+ascsave a冲击1_100km_20s
+
+tempvar=Cut(通道_001,500,520)
+a冲击1_150km_20s=(tempvar-mean(tempvar))/(0.002)
+ascsave a冲击1_150km_20s
+
+tempvar=Cut(通道_001,800,820)
+a冲击1_200km_20s=(tempvar-mean(tempvar))/(0.002)
+ascsave a冲击1_200km_20s
+
+tempvar=Cut(通道_001,1100,1120)
+a冲击1_250km_20s=(tempvar-mean(tempvar))/(0.002)
+ascsave a冲击1_250km_20s
+
+tempvar=Cut(通道_001,1400,1420)
+a冲击1_300km_20s=(tempvar-mean(tempvar))/(0.002)
+ascsave a冲击1_300km_20s
