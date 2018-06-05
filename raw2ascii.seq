@@ -9,3 +9,6 @@ ascsave ch3_r3500
 sdir C:\Users\科研\Desktop\imc2018-5-11
 ch1_r3500=Cut(通道_004,60,65)
 ascsave ch1_r3500
+
+a测点4_横向=(通道_008-mean(通道_008))/(0.0101)
+ascsave a测点4_横向
