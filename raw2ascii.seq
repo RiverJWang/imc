@@ -12,3 +12,5 @@ ascsave ch1_r3500
 
 a测点4_横向=(通道_008-mean(通道_008))/(0.0101)
 ascsave a测点4_横向
+
+## ren *.asc *.txt ##  此处为.bat
