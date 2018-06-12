@@ -2,16 +2,16 @@
 clear;
 clc;
 %%
-load F:\公司项目备份文件\CRH5\matlab资料程序\小波\dtcwpt_filters_long.mat;
+load D:\DDesktop\z龙莹\dtcwpt\dtcwpt_filters_long.mat;
 fs=10000;
 max_level=3;
  
 B=cell(1,1);
 tzfz_fz=ones(1,1);
 
-data=importdata('100km.mat');  %%导入数据
+% data=importdata('100km.mat');  %%导入数据
 data=data';
-data=data-mean(data);
+% data=data-mean(data);
 
       
 %%  绘制信号时域图
